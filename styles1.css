@@ -1,0 +1,185 @@
+body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://static.vecteezy.com/system/resources/previews/005/026/647/non_2x/luxury-black-gold-background-elegant-and-unique-free-vector.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            font-weight: Bold;
+            margin: 100px;
+            padding: 0px;
+        }
+
+        #section1{
+            animation: fadeInRight 2s ease;
+        }
+
+        #section2{
+            animation: fadeInUp 2s ease;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 3em;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .info-cont {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+
+        .sect1 {
+            text-align: left;
+        }
+
+        .sect1 a {
+            display: flex;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            gap: 5px;
+        }
+
+
+
+        .sect2 {
+            margin: 20px 0 0 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #border {
+            border-bottom: 2px solid rgb(255, 255, 255);
+        }
+
+        .sect2 .textbox {
+            padding: 15px 0;
+
+        }
+
+        .sect2 .textbox a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        .sect2 .textbox a i {
+            margin: 0;
+            padding: 0;
+        }
+
+        .movie-card {
+            background-color: #f676060e;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+        }
+
+        .movie-card:hover {
+            box-shadow: 0 4px 10px rgba(250, 217, 0, 0.981);
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .movie-card h2 {
+            font-size: 1.5em;
+            margin: 15px 0 5px;
+        }
+
+        .movie-details {
+            display: flex;
+            justify-content: space-between;
+            background-image: url(https://static.vecteezy.com/system/resources/previews/005/026/647/non_2x/luxury-black-gold-background-elegant-and-unique-free-vector.jpg);
+            background-image: url();
+            color: white;
+            padding: 20px;
+        }
+
+        .left-section {
+            width: 65%;
+        }
+
+        .left-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .left-section h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+
+        .left-section h3 {
+            margin-top: 15px;
+        }
+
+        .right-section {
+            width: 30%;
+            text-align: center;
+        }
+
+        .right-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .book-tickets {
+            background-color: #5902fb;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .book-tickets:hover {
+            background-color: #ada8a641;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translatey(50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+
+        @keyframes fadeInRight {
+            0% {
+                opacity: 0;
+                transform: translatey(-50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+
+
+        
